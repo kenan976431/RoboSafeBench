@@ -26,10 +26,10 @@ The documentation is automatically deployed to GitHub Pages when pushing to the 
 ## Citation
 
 ```bibtex
-@article{yourname2025robosafe,
+@article{tmp2026robosafe,
   title={RoboSafeBench: A Safety Benchmark},
-  author={Your Name},
-  year={2025}
+  author={tmp},
+  year={2026}
 }
 ```
 
