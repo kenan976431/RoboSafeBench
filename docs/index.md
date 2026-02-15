@@ -57,7 +57,7 @@ python -m robosafe.benchmark --config config.yaml
 ## Latest Updates
 
 !!! tip "Recent News"
-    - **2026/02/13**: Initial release
+    - **2025/02/13**: Initial release
     - Coming soon: More updates!
 
 ## Citation
@@ -65,10 +65,14 @@ python -m robosafe.benchmark --config config.yaml
 If you find our work useful, please cite:
 
 ```bibtex
-@article{tmp2026robosafebench,
+@article{yourname2025robosafe,
   title={RoboSafeBench: A Safety Benchmark for Robotic Manipulation},
-  author={tmp},
-  year={2026}
+  author={Your Name and Others},
+  journal={arXiv preprint arXiv:xxxx.xxxxx},
+  year={2025}
 }
 ```
 
+## Acknowledgments
+
+This work builds upon [RoboTwin 2.0](https://robotwin-platform.github.io/).

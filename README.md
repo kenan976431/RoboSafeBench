@@ -5,11 +5,13 @@
 
 A comprehensive safety benchmark for robotic manipulation.
 
-## Documentation
+## 📚 Documentation
 
 Visit our [documentation website](https://kenan976431.github.io/RoboSafeBench/) for detailed information.
 
-## Quick Start
+## 🚀 Quick Start
+
+### Local Development
 
 ```bash
 # Install dependencies
@@ -17,22 +19,63 @@ pip install -r requirements.txt
 
 # Preview documentation locally
 mkdocs serve
+
+# Visit http://127.0.0.1:8000
 ```
 
-## Deployment
+### Build and Deploy
 
-The documentation is automatically deployed to GitHub Pages when pushing to the main branch.
+```bash
+# Build static site
+mkdocs build
 
-## Citation
+# Deploy to GitHub Pages
+mkdocs gh-deploy
+```
+
+## 📁 Project Structure
+
+```
+RoboSafeBench/
+├── docs/               # Documentation source files
+│   ├── index.md       # Homepage
+│   ├── assets/        # Images, videos, CSS
+│   ├── main/          # Project overview
+│   ├── usage/         # Usage guides
+│   ├── dataset/       # Dataset documentation
+│   ├── methods/       # Methods description
+│   ├── benchmark/     # Benchmark results
+│   ├── api/           # API reference
+│   └── community/     # Community resources
+├── mkdocs.yml         # MkDocs configuration
+└── README.md          # This file
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please see [Contributing Guide](docs/community/contributing.md).
+
+## 📄 Citation
+
+If you find our work useful, please cite:
 
 ```bibtex
-@article{tmp2026robosafe,
+@article{yourname2025robosafe,
   title={RoboSafeBench: A Safety Benchmark},
-  author={tmp},
-  year={2026}
+  author={Your Name and Others},
+  journal={arXiv preprint arXiv:xxxx.xxxxx},
+  year={2025}
 }
 ```
 
-## License
+## 📧 Contact
 
-MIT License
+For questions or feedback, please open an issue or contact the team.
+
+## 🙏 Acknowledgments
+
+This project builds upon [RoboTwin 2.0](https://robotwin-platform.github.io/).
+
+## 📜 License
+
+MIT License - see [LICENSE](LICENSE) for details.

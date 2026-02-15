@@ -32,3 +32,7 @@ pip install -r requirements.txt
 import robosafe
 print(robosafe.__version__)
 ```
+
+## Troubleshooting
+
+If you encounter any issues, please check our [FAQ](../community/faq.md) or open an issue on GitHub.

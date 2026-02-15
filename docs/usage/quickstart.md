@@ -15,6 +15,8 @@ model = robosafe.train(dataset)
 results = robosafe.evaluate(model)
 ```
 
-## Examples
+## Next Steps
 
-See more examples in our [tutorials](../tutorials/index.md).
+- [Detailed Installation](installation.md)
+- [API Reference](../api/core.md)
+- [Tutorials](../tutorials/index.md)
